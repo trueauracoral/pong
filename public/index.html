@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pong in JS</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="./img/logo.ico">
+    </head>
+
+    <body>
+        <div id="game" style="display:none">
+            <canvas id="canvas"></canvas>
+            <h1 id="player1Score">0</h1>
+            <h1 id="player2Score">0</h1>
+        </div>
+
+        <img src="./img/logo.png" id="logo" style="display:block">
+        <div id="start" style="display:block">
+            <a href="#" onclick="startGame(1)">
+                <button>
+                    1 Player</a>
+                </button>
+            </a>
+            <a href="#">
+                <button>
+                    2 Player (Not Yet)</a>
+                    <!--<a href="#" onclick ="startGame(2)">2 Player</a>-->
+                </button>
+            </a>
+        </div>
+
+        <script src="./js/classes/Ball.js"></script>
+        <script src="./js/classes/Paddle.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
