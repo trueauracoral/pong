@@ -1,5 +1,5 @@
-* Pong in JS
-This JS project uses node and could be hosted on a web server. The code runs on port 3000. git clone it and run node app.js and make sure you installed express.
+* Pong in JS (ITCH BRANCH)
+This JS project has all the JS in one project so that way hopefulley it can work in itch!!!
 ** Tutorials I used
 - https://www.youtube.com/watch?v=8_zUEh7Vqhs (Start Screen)
 - https://www.youtube.com/watch?v=HXquxWtE5vA (Setting up node and making classes)
