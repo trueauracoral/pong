@@ -1,5 +1,8 @@
 * Pong in JS (ITCH BRANCH)
-This JS project has all the JS in one project so that way hopefulley it can work in itch!!!
+This JS project has all the JS in one file, so that way it can work on an iframe, specifically itch.
+
+Play here: https://trueauracoral.itch.io/pong-js 
+
 ** Tutorials I used
 - https://www.youtube.com/watch?v=8_zUEh7Vqhs (Start Screen)
 - https://www.youtube.com/watch?v=HXquxWtE5vA (Setting up node and making classes)
